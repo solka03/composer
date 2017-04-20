@@ -1,0 +1,11 @@
+version: "2"
+services:
+  client:
+    image: uuid-client
+  
+  server:
+    image: uuid-server
+   
+    ports:
+      - "9090:9090"
+    
